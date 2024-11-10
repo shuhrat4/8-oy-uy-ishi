@@ -35,5 +35,63 @@
 //     console.log(count > 0 ? true : false);
 // }
 // findvalue(value,list)
-// 4
-let numberList = [21, 43, 56, 43];
+// 6
+// type UserType = {
+//     id:number
+//     name:string
+//     email:string
+//     address:string
+//     password:string | number
+// }
+// type ResultType = {
+//     name:string
+//     email:string
+// }
+// const userList:Array<UserType> = [ 
+//     {
+//         id:1,
+//         name:"Hello",
+//         email:"nodir@gmail.com",
+//         address:"Chilonzor",
+//         password:123
+//     },
+//     {
+//         id:2,
+//         name:"Salom",
+//         email:"botir@gmail.com",
+//         address:"Bunyodkor",
+//         password:162
+//     }
+// ]
+// function namesAndEmails(arr:Array<UserType>):ResultType[]{
+//     let res:Array<ResultType> = [];
+//     arr.forEach((item:UserType) => {
+//         const data:ResultType = {name:item.name,email:item.email}
+//         return res.push(data)
+//     })
+//     return res
+// }
+// console.log(namesAndEmails(userList));
+// 7 Masala 
+// type UserType = {
+//     id: number;
+//     name: string;
+//     email: string;
+//     address: string;
+//     password: string | number;
+// };
+// const userList: Array<UserType> = [
+//     { id: 1, name: "Hello", email: "hello@gmail.com", address: "Chilonzor", password: 123 },
+//     { id: 2, name: "Salom", email: "salom@gmail.com", address: "Bunyodkor", password: 162 },
+//     { id: 3, name: "Salom", email: "bilmadim@gmail.com", address: "Bunyodkor", password: 162 },
+//     { id: 4, name: "Salom", email: "qanday@gmail.com", address: "Bunyodkor", password: 162 },
+//     { id: 5, name: "Salom", email: "yaxshi@gmail.com", address: "Bunyodkor", password: 162 },
+//     { id: 6, name: "Salom", email: "hjca@gmail.com", address: "Bunyodkor", password: 162 },
+//     { id: 7, name: "Oyatillo", email: "Oyatillo@gmail.com", address: "Bunyodkor", password: 162 }
+// ];
+// let userId: number = Number(prompt("Userning ID-sini kiriting:"));
+// function findUser(arr: Array<UserType>, id: number): string {
+//     const foundUser: UserType | undefined = arr.find((item: UserType) => item.id === id);
+//     return foundUser ? foundUser.address : 'Bunday user mavjud emas';
+// }
+// console.log(findUser(userList, userId));
